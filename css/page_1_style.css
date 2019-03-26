@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.col-12 {
+    margin: 0;
+    padding: 0;
+    background: #43C6AC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.col-12 h1 {
+    color: #ffffff;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+    margin: 3rem 0;
+}
+
+.col-8 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+
+}
+
+.col-8 p {
+    color: #000000;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.col-8 button {
+    margin-top: 1rem;
+    border: 0;
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.col-8 button:hover {
+    background: #fceabb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
